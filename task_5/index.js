@@ -13,3 +13,11 @@ var obj = {
 var output = getProperty(obj, 'key');
 console.log(output);
 
+//5.2.2
+function addProperty(object, propertyName) {
+    object[propertyName] = true;
+}
+
+var myObj = {};
+addProperty(myObj, "myProperty");
+console.log(myObj.myProperty); 
