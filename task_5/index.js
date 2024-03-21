@@ -68,3 +68,11 @@ function isGreaterThan(num1, num2) {
 
 var output = isGreaterThan(11, 10);
 console.log(output);
+
+//5.2.8
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+var output = isEven(11);
+console.log(output);
