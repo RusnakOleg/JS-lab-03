@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <p id="sentence">Якийсь текст</p>
+    <button onclick="deleteLastCharacter()">Видалити останній символ</button>
+
+    <script>
+        function deleteLastCharacter() {
+            var sentenceElement = document.getElementById('sentence');
+            var sentenceText = sentenceElement.textContent;
+            var newSentenceText = sentenceText.slice(0, -1);
+            sentenceElement.textContent = newSentenceText;
+        }
+    </script>
+</body>
+</html>
