@@ -44,3 +44,12 @@ function getFullName(firstName, lastName) {
 
 var output = getFullName('Joe', 'Smith');
 console.log(output); 
+
+//5.2.5
+function getLengthOfWord(word) {
+    return word.length;
+}
+
+var output = getLengthOfWord('some');
+console.log(output);
+
