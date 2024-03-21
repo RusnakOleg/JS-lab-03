@@ -36,3 +36,11 @@ var obj_2 = {
 
 removeProperty(obj_2, 'name');
 console.log(obj_2.name);
+
+//5.2.4
+function getFullName(firstName, lastName) {
+    return firstName + ' ' + lastName;
+}
+
+var output = getFullName('Joe', 'Smith');
+console.log(output); 
