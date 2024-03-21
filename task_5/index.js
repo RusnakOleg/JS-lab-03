@@ -84,3 +84,11 @@ function isSameLength(word1, word2) {
 
 var output = isSameLength('words', 'super');
 console.log(output);
+
+//5.2.10
+function isEvenAndGreaterThanTen(number) {
+    return number % 2 === 0 && number > 10;
+}
+
+var output = isEvenAndGreaterThanTen(13);
+console.log(output);
