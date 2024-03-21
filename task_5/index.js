@@ -53,3 +53,11 @@ function getLengthOfWord(word) {
 var output = getLengthOfWord('some');
 console.log(output);
 
+//5.2.6
+function getLengthOfTwoWords(word1, word2) {
+    return word1.length + word2.length;
+}
+
+var output = getLengthOfTwoWords('some', 'words');
+console.log(output);
+
