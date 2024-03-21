@@ -21,3 +21,18 @@ function addProperty(object, propertyName) {
 var myObj = {};
 addProperty(myObj, "myProperty");
 console.log(myObj.myProperty); 
+
+//5.2.3
+function removeProperty(object, propertyName) {
+    if (object.hasOwnProperty(propertyName)) {
+        delete object[propertyName];
+    }
+}
+
+var obj_2 = {
+    name: 'Sam',
+    age: 20
+};
+
+removeProperty(obj_2, 'name');
+console.log(obj_2.name);
