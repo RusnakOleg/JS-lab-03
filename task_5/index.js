@@ -61,3 +61,10 @@ function getLengthOfTwoWords(word1, word2) {
 var output = getLengthOfTwoWords('some', 'words');
 console.log(output);
 
+//5.2.7
+function isGreaterThan(num1, num2) {
+    return num1 > num2;
+}
+
+var output = isGreaterThan(11, 10);
+console.log(output);
